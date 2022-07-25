@@ -1,0 +1,109 @@
+.description__barGraph {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description__barGraph .p__barGraph {
+    margin-left: 32px;
+    font-size: 15px;
+}
+
+.description__barGraph .ul__barGraph {
+    display: flex;
+    margin-right: 26px;
+    list-style: none;
+    color: #74798c;
+}
+
+.description__barGraph .ul__barGraph .cal__barGraph {
+    margin-left: 32px;
+}
+
+list-style-type-background {
+    background: red;
+}
+
+.description__barGraph .ul__barGraph .cal__barGraph::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.description__barGraph .ul__barGraph #weight__barGraph::before {
+    background-color: black;
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+    border-radius: 50%;
+}
+
+.customTooltipActivity {
+    background-color: #e60000;
+    color: white;
+    width: 60px;
+    height: 90px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.customTooltipActivity .p__barGraph {
+    color: white;
+}
+
+#weight__barGraph,
+.cal__barGraph {
+    color: black;
+}
+
+.customTooltipActivityCursor {
+    width: 56px;
+    height: 100%;
+    color: #74798c;
+}
+
+
+@media screen and (max-width: 900px) {
+    .description__barGraph .p__barGraph {
+        margin-left: 3px;
+        font-size: 12px;
+        width: auto;
+    }
+
+    .description__barGraph .ul__barGraph .kg__barGraph {
+        color: black;
+    }
+
+    .description__barGraph .ul__barGraph .kcal__barGraph {
+        color: red;
+        margin-left: 20px;
+    }
+
+    .description__barGraph .ul__barGraph {
+        margin-right: 50px;
+        font-size: 12px;
+    }
+
+    .description__barGraph .ul__barGraph #weight__barGraph {
+        display: none;
+    }
+
+    .description__barGraph .ul__barGraph .cal__barGraph {
+        display: none;
+    }
+
+    .description__barGraph .ul__barGraph .li__barGraph {
+        margin-left: 3px;
+        font-size: 12px;
+    }
+}
