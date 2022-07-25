@@ -1,0 +1,79 @@
+.errorPageContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: in 0.4s ease-in-out;
+}
+
+.h1__errorPage {
+    font-size: 264px;
+    margin: 0;
+}
+
+.p__errorPage {
+    font-size: 44px;
+}
+
+.navlink__errorPage {
+    background-color: #ff0101;
+    color: white;
+    text-decoration: none;
+    width: 434px;
+    height: 64px;
+    font-size: 24px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    box-shadow: 4px 4px 10px rgb(114, 112, 112);
+}
+
+.navlink__errorPage:hover {
+    box-shadow: 4px 4px 10px rgb(29, 29, 29);
+}
+
+.navlink__errorPage:active {
+    transform: translate(2px);
+    box-shadow: none;
+}
+
+@keyframes in {
+    0% {
+        position: absolute;
+        top: 200%;
+    }
+
+    30% {
+        position: absolute;
+        top: 10%;
+    }
+
+    40% {
+        position: absolute;
+        top: -10%;
+    }
+
+    50% {
+        position: absolute;
+        top: 10%;
+    }
+
+    60% {
+        position: absolute;
+        top: -10%;
+    }
+
+    70% {
+        position: absolute;
+        top: 10%;
+    }
+
+    100% {
+        position: absolute;
+        top: 0%;
+    }
+}

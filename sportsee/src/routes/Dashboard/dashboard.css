@@ -1,0 +1,149 @@
+.mainContent {
+    display: flex;
+    margin-left: 8.1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContent .graphsAndDailyContainer {
+    display: flex;
+    margin-left: 8.1%;
+}
+
+.mainContent .graphsAndDailyContainer .graphsContainer {
+    width: 70%;
+}
+
+.mainContent .graphsAndDailyContainer .graphsContainer .dailyActivity {
+    width: 100%;
+    height: 320px;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+}
+
+.mainContent .graphsAndDailyContainer .graphsContainer .otherGraph {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainContent .graphsAndDailyContainer .graphsContainer .otherGraph .averageSessions {
+    background-color: #ff0000;
+    width: 32%;
+    height: 263px;
+    border-radius: 5px;
+}
+
+.mainContent .graphsAndDailyContainer .graphsContainer .otherGraph .averageSessions .pDescription {
+    font-size: 15px;
+    color: aliceblue;
+    opacity: 0.6;
+    margin-top: 29px;
+    margin-left: 34px;
+}
+
+.mainContent .graphsAndDailyContainer .graphsContainer .otherGraph .performances {
+    background-color: #2e3333;
+    width: 32%;
+    height: 263px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.mainContent .graphsAndDailyContainer .graphsContainer .otherGraph .score {
+    width: 32%;
+    height: 263px;
+    border-radius: 5px;
+    background-color: #e9e9e9;
+    position: relative;
+}
+
+.mainContent .graphsAndDailyContainer .graphsContainer .otherGraph .score .pScore {
+    margin-left: 30px;
+    margin-top: 24px;
+}
+
+.mainContent .graphsAndDailyContainer .graphsContainer .otherGraph .score .radarBarChart {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.mainContent .graphsAndDailyContainer .graphsContainer .otherGraph .score .userObjectif {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainContent .graphsAndDailyContainer .graphsContainer .otherGraph .score .userObjectif .percent {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.mainContent .graphsAndDailyContainer .graphsContainer .otherGraph .score .userObjectif p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.mainContent .graphsAndDailyContainer .dailyIntake {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .mainContent {
+        margin: 0;
+        width: 100%;
+    }
+
+    .mainContent .graphsAndDailyContainer {
+        width: 100%;
+        flex-direction: column-reverse;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .mainContent .graphsAndDailyContainer .dailyIntake {
+        width: 100%;
+        height: 15vh;
+        margin-left: 0;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .mainContent .graphsAndDailyContainer .graphsContainer {
+        width: 100%;
+    }
+
+    .mainContent .graphsAndDailyContainer .graphsContainer .otherGraph {
+        flex-direction: column;
+        width: 97%;
+        margin: 30px auto;
+    }
+
+    .mainContent .graphsAndDailyContainer .graphsContainer .otherGraph .averageSessions {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .mainContent .graphsAndDailyContainer .graphsContainer .otherGraph .score {
+        width: 100%;
+    }
+
+
+    .mainContent .graphsAndDailyContainer .graphsContainer .otherGraph .performances {
+        width: 100%;
+    }
+}
