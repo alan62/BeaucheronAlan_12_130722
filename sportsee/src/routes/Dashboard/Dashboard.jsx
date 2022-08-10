@@ -26,7 +26,6 @@ import Spinner from '../../components/Spinner/Spinner'
  */
 const Dashboard = () => {
   let { userId } = useParams()
-  console.log(parseInt(userId))
 
   const [userMainDatas, setUserMainDatas] = useState()
   const [userActivity, setUserActivity] = useState()
@@ -69,6 +68,7 @@ const Dashboard = () => {
       ? setGoodUrl(true)
       : setGoodUrl(false)
   }, [userMainDatas])
+
   return (
     <div>
       <TopNav />
