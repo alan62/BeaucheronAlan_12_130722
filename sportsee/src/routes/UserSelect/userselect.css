@@ -1,9 +1,9 @@
-.userSelect {
+.userSelect__userSelect {
     width: 1903px;
     height: 95vh;
 }
 
-.userContainer {
+.userContainer__userSelect {
     height: 95vh;
 }
 
@@ -16,13 +16,13 @@
     padding: 0;
 }
 
-.navlink {
+.navlink__userSelect {
     text-decoration: none;
     color: white;
     text-align: center;
 }
 
-.userCard {
+.userCard__userSelect {
     background-color: #020203;
     width: 150px;
     display: flex;
@@ -56,7 +56,7 @@
         flex-direction: column;
     }
 
-    .userCard {
+    .userCard__userSelect {
         margin: 10px 0;
     }
 }

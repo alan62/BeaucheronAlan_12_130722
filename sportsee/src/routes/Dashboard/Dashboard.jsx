@@ -56,16 +56,15 @@ const Dashboard = () => {
     setLoading(false)
   }
 
+  
   useEffect(() => {
     loadUserMainDatas()
     loadUserActivity()
     loadUserAverageSessions()
     loadUserPerformance()
   }, [userId])
-  console.log(userMainDatas)
 
   useEffect(() => {
-    userMainDatas && console.log(userMainDatas)
     userMainDatas && userMainDatas.id !== ''
       ? setGoodUrl(true)
       : setGoodUrl(false)

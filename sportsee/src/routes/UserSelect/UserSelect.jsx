@@ -14,10 +14,10 @@ const UserSelect = () => {
     <div className="userSelect">
       <TopNav />
       <LeftNavBar />
-      <div className="userContainer">
+      <div className="userContainer__userSelect">
         <ul className='ul__userSelect'>
-          <NavLink className="navlink" to="/12">
-            <div className="userCard">
+          <NavLink className="navlink__userSelect" to="/12">
+            <div className="userCard__userSelect">
               <div className="imgContainer__userSelect">
                 <img className="img__userSelect" src={karl} alt="karl " />
               </div>
@@ -26,8 +26,8 @@ const UserSelect = () => {
             </div>
           </NavLink>
 
-          <NavLink className="navlink" to="/18">
-            <div className="userCard">
+          <NavLink className="navlink__userSelect" to="/18">
+            <div className="userCard__userSelect">
               <div className="imgContainer__userSelect">
                 <img className="img__userSelect" src={cecilia} alt="cécilia " />
               </div>
@@ -35,8 +35,8 @@ const UserSelect = () => {
               <p className='p__userSelect'>Ratorez</p>
             </div>
           </NavLink>
-          <NavLink className="navlink" to="/errorPage">
-            <div className="userCard">
+          <NavLink className="navlink__userSelect" to="/errorPage">
+            <div className="userCard__userSelect">
               <div className="imgContainer__userSelect">
                 <img className="img__userSelect" src={john} alt="john " />
               </div>
