@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## To start
 
-Clone the project, go to the project folder(sportsee /sportsee-BACK ), install the dependencies by running the command ### npm install then do the same in the folder sportsee-FRONT
+Clone the project, go to the project folder(sportsee /sportsee-BACK ), install the dependencies by running the command 'npm install' then do the same in the folder sportsee-FRONT
 
 ### `npm install`
 
